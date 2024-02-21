@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* navbar Styling */
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo > img{
+    width: 35px;
+}
+
+.logo > span {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.navbar > button {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.navbar > button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-items > a {
+    text-decoration: none;
+    margin: 0 20px;
+    align-self: center;
+}
+
+.nav-items > a:hover {
+    color: #ffa500;
+    font-weight: bold;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/* main Styling */
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 550px;
+    margin: 0 100px;
+    padding-bottom: 20px;
+}
+
+.main-text {
+    width: 800px;
+}
+
+.main-text > h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.main-text >  p {
+    margin-bottom: 20px;
+    border-left: 1px solid #000;
+    padding: 5px 0;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.getStarted {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.getStarted:hover {
+    background-color: #fcc55e;
+    cursor: pointer;
+}
+
+.learnMore {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: bold;
+}
+
+.learnMore:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-image > img {
+    position: absolute;
+}
+
+.image-style-1 {
+    /* position: fixed; */
+    z-index: 2;
+    top: 190px;
+    height: 440px;
+    width: 300px;
+    overflow: hidden;
+    right: 240px;
+}
+
+.image-style-2 {
+    z-index: 1;
+    top: 200px;
+}
+
+.image-style-3 {
+    z-index: 3;
+    top: 180px;
+    height: 440px;
+}
+
+.curve-arrow {
+    position: absolute;
+    left: 400px;
+}
+
+.orange-arrow {
+    position: absolute;
+    top: 200px;
+    right: 650px;
+}
+
+.green-arrow {
+    position: absolute;
+    bottom: 40px;
+    right: 600px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+/* Features Section */
+.features-section {
+    background-color: #2a2541;
+    color: #fff;
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.features-section > div {
+    width: 200px;
+    height: 200px;
+}
+
+.item > p {
+    color: #d0cccc;
+}
+
+.item-1 {
+    width: 300px !important;
+}
+
+.item-1 > h3 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.f-image > img {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.f-image-1 {
+    background-color: #21eae0;
+}
+
+.f-image-2 {
+    background-color: #ff8c00;
+}
+
+.f-image-3 {
+    background-color: #0a83ab;
+}
